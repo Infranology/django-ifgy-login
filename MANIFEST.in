@@ -1,4 +1,5 @@
 include LICENSE
+include CONTRIBUTORS
 include README.rst
 recursive-include ifgy_login/docs *
 recursive-include ifgy_login/static *

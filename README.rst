@@ -1,6 +1,6 @@
-=====
-Ifgy Login
-=====
+=================
+Django Ifgy Login
+=================
 
 ifgy_login is a simple Django app to conduct login and logout.
 
