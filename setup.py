@@ -11,12 +11,12 @@ setup(
     version='0.1',
     packages=['ifgy_login'],
     include_package_data=True,
-    license='BSD License',  # example license
+    license='BSD License',
     description='A simple Django app to conduct login/logout.',
     long_description=README,
     url='https://github.com/Infranology',
     author='Rodrigo Prior Bechelli',
-    author_email='r@ifgy.co',
+    author_email='rprior@infranology.com.br',
     classifiers=[
         'Environment :: Web Environment',
         'Framework :: Django',
