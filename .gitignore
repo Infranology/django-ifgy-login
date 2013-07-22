@@ -1,0 +1,13 @@
+dea
+.project
+.pydevproject
+docs/_build
+build
+dist
+django_ifgy_login.egg-info
+example/local_settings.py
+coverage.xml
+pep8.txt
+*.bak
+.#*
+\#*_
