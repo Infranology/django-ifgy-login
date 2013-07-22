@@ -1,7 +1,7 @@
 {% extends "base.html" %}
-{% load cms_tags menu_tags i18n %}
+{% load i18n %}
 
-{% block page_title %}{% trans "login" %}{% endblock %}
+{% block page_title %}{% trans "Login" %}{% endblock %}
 
 {% block main %}
 <div class="span4 offset4" id="loginModal">
@@ -12,7 +12,7 @@
                     <div class="node-content group">
                         <article class="node-inner">
                             <header>
-                                <h1 class="title" id="page-title">{% page_attribute "title" %}</h1>
+                                <h1 class="title" id="page-title">{% trans "Login" %}</h1>
                             </header>
 
                             <form action="" method="post" accept-charset="utf-8">
