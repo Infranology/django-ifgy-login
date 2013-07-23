@@ -8,13 +8,12 @@ env:
  - DJANGO_VERSION=1.5
 install:
  - pip install Django==$DJANGO_VERSION --use-mirrors
- - pip install . --use-mirrors
  - pip install pep8 --use-mirrors
- - pip install https://github.com/dcramer/pyflakes/tarball/master
+ - pip install pyflakes --use-mirrors
  - pip install . --use-mirrors
 before_script:
- - "pep8 --exclude=migrations --ignore=E501,E225 src"
- - pyflakes -x W src
+ - pep8 ifgy_login
+ - pyflakes ifgy_login
 branches:
  only:
   - master
