@@ -2,6 +2,9 @@
 Django Ifgy Login
 =================
 
+.. image:: https://travis-ci.org/Infranology/django-ifgy-login.png?branch=master
+   :target: https://travis-ci.org/Infranology/django-ifgy-login
+
 ifgy_login is a simple Django app to conduct login and logout.
 
 It uses bootstrap as login page tplt.
