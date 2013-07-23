@@ -9,10 +9,17 @@ env:
 install:
  - pip install Django==$DJANGO_VERSION --use-mirrors
  - pip install . --use-mirrors
+ - pip install pep8 --use-mirrors
+ - pip install https://github.com/dcramer/pyflakes/tarball/master
+ - pip install . --use-mirrors
+before_script:
+ - "pep8 --exclude=migrations --ignore=E501,E225 src"
+ - pyflakes -x W src
 branches:
  only:
   - master
-script: python manage.py test
+script:
+  - python setup.py test
 matrix:
   exclude:
     - python: "3.3"
