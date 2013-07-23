@@ -11,4 +11,3 @@ def UserLogin(request, **kwargs):
 
 def UserLogout(request, **kwargs):
     return logout(request, **kwargs)
-
